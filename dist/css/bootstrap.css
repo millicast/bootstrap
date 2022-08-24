@@ -10301,9 +10301,6 @@ a.ml_viewer .badge-dark:focus, a.ml_viewer .badge-dark.focus {
   .ml_viewer .navbar {
     display: none;
   }
-  .ml_viewer .badge {
-    border: 1px solid #000;
-  }
   .ml_viewer .table {
     border-collapse: collapse !important;
   }
