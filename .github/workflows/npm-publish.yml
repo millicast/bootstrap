@@ -22,6 +22,7 @@ jobs:
     name: "publish ${{ inputs.ref || github.ref_name }}"
     runs-on: ubuntu-latest
     container: node:24-alpine
+    environment: release
     permissions:
       contents: read
       id-token: write
